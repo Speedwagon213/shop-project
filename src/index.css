@@ -152,6 +152,14 @@ header .head ul.nav li:hover{
   margin-top: 1%;
   margin-bottom: 3%;
 }
+@media(max-width : 500px){
+  .shoppingCart-open .order img{
+  width: 30%;
+}
+  .shoppingCart-open .order h3{
+  font-size: 0.9em;
+}
+}
 .shoppingCart-open .order b{
   
   color: #413c35;
